@@ -45,3 +45,10 @@ footer:hover{
 a{
     text-decoration: none; /* no underline */
 }
+
+@media (min-width: 900px) {
+    div {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+  }
