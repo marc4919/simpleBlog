@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(235,117,117)
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: rgb(216,230,224)
+}
+
+h1{
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    margin: 0px;
+    margin-top: 10%
+}
+
+h4{
+    margin: 0px;
+}
+
+h3{
+    font-family: 'M PLUS 1p', sans-serif;
+    text-align: justify;
+}
+
+div{
+    margin-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
