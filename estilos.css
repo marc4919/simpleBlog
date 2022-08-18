@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(235,117,117)
+    background-color: rgb(235,117,117);
+    margin: 0px;
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
@@ -9,8 +10,8 @@ h1, h2, h3, h4, h5, h6, p, a {
 h1{
     font-family: 'PT Serif', serif;
     text-align: center;
+    width: 100%;
     margin: 0px;
-    margin-top: 10%
 }
 
 h4{
@@ -46,9 +47,37 @@ a{
     text-decoration: none; /* no underline */
 }
 
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 10%;
+    background-color:  rgb(235,117,117, 0.7);
+    padding-top: 10%;
+}
+
+main{
+    margin-top: 20%;
+}
+
+
 @media (min-width: 900px) {
     div {
         padding-left: 20%;
         padding-right: 20%;
+    }
+
+    main{
+        margin-top: 18%;
+    }
+  }
+
+  @media (max-width: 730px) {
+    h1{
+        margin-top: 10%;
+    }
+
+    main{
+        margin-top: 45%;
     }
   }
